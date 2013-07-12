@@ -1,0 +1,23 @@
+hi,
+The button has been added already, though it is still not synchronized in size with other buttons when viewed in back end.For this following html & css fixation can implemented:  
+
+
+<ul>
+<li id="toolbar-new" class="button">
+<button class="btn btn-large btn-success" onclick="location.href='index.php?option=com_modules&view=select'">
+</li>/*btn-small can be changed to btn-large*/
+
+
+button {
+    background-color: #F9FADE;
+    background-image: linear-gradient(to bottom, #F9FADE, #F9FADE);
+    background-repeat: repeat-x;
+    border: 1px solid #C7C8B2;
+    color: #054993;
+}
+button {
+    border-radius: 3px 3px 3px 3px;/*the border radius can be adjusted to implement a curve design for the button.For example, "13px 3px 3px 3px" will make a curve on the upper-left corner of the button icon */
+    font-family: Arial,Helvetica,sans-serif;
+    margin-left: 3px;
+    margin-right: 3px;
+}
